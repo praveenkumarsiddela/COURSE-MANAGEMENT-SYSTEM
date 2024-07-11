@@ -1,0 +1,16 @@
+###get all blocks
+GET http://localhost:4000/books
+
+###Getting by ID
+GET http://localhost:4000/books/65e55e7f1be446f6a61b5b23
+
+###posting a new block
+POST http://localhost:4000/books
+Content-Type: application/json
+
+{
+  "title":"Harry Potter and the Sorcerer's Stone",
+  "author": "J.K. Rowling",
+  "genre": "Fantasy",
+  "year": 2012
+}
