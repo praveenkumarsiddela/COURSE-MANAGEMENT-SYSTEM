@@ -1,9 +1,8 @@
-# Book Exchange Application
 
-## Introduction
+# Course Management System
 
-### Overview
-The Book Exchange Application is designed to facilitate seamless book listing and exchanges among users. It prioritizes a smooth user experience, allowing users to register, manage passwords, list books, and exchange them with their peers. Built using the MVC (Model-View-Controller) architecture, the application ensures scalability and maintainability by separating concerns effectively.
+## Overview
+A responsive web application designed to manage university courses. The system provides functionalities for user authentication, course management, and data visualization.
 
 ### Problem Statement
 Traditional book exchange methods are often inefficient and inaccessible, relying on physical meetings or complex online platforms. This project aims to overcome these shortcomings by offering a digital platform where users can effortlessly list their books, explore available titles, and initiate exchanges, making the process convenient and accessible to a broader audience.
@@ -18,8 +17,18 @@ The technology stack includes:
 - **MongoDB:** Efficient data storage
 - **EJS (Embedded JavaScript):** Server-side templating
 
-These technologies were chosen for their reliability, scalability, and user-friendly nature in web application development.
+## Features
+- **User Authentication**: Secure login and registration using JWT.
+- **Course Management**: Create, update, delete, and view courses.
+- **Responsive Design**: Ensures compatibility across devices.
 
+## Installation
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run the application: `npm start`
+
+## Contribution
+Contributions are welcome. Please fork the repository and submit pull requests.
 
 ## API Specifications
 The API follows RESTful principles for user authentication, book listing, and exchanges.
